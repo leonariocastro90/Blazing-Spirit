@@ -1,0 +1,146 @@
+@echo off
+cd /d "%~dp0"
+start "Blazing Spirit - Godot Editor" "%~dp0Godot_v4.7.2-stable_win64.exe" --editor --path "%~dp0"
+
+
+@echo off
+cd /d "%~dp0"
+start "Blazing Spirit" "%~dp0Godot_v4.7.2-stable_win64.exe" --path "%~dp0"
+
+
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id="1"]
+
+[node name="BlazingSpirit" type="Node2D"]
+script = ExtResource("1")
+
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjgrdrgstfy1h"
+path="res://.godot/imported/Maple Town Morning (1).mp3-cf4703f5740d19a4364351ad71064907.mp3str"
+
+[deps]
+
+source_file="res://Maple Town Morning (1).mp3"
+dest_files=["res://.godot/imported/Maple Town Morning (1).mp3-cf4703f5740d19a4364351ad71064907.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
+
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8451d54y0rjv"
+path="res://.godot/imported/Maple Town Morning (2).mp3-af1fd222aa2d969150e9a22664031ca5.mp3str"
+
+[deps]
+
+source_file="res://Maple Town Morning (2).mp3"
+dest_files=["res://.godot/imported/Maple Town Morning (2).mp3-af1fd222aa2d969150e9a22664031ca5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
+
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7yjybn7e3djl"
+path="res://.godot/imported/Mosslight Village.mp3-41550cdf3d3da6114fadc004f3b5190b.mp3str"
+
+[deps]
+
+source_file="res://Mosslight Village.mp3"
+dest_files=["res://.godot/imported/Mosslight Village.mp3-41550cdf3d3da6114fadc004f3b5190b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
+
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Blazing Spirit"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[input]
+
+move_left={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":65,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194311,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+move_right={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194313,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+jump={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+attack={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":74,"key_label":0,"unicode":106,"location":0,"echo":false,"script":null)
+]
+}
+run={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194325,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+crouch={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":83,"key_label":0,"unicode":115,"location":0,"echo":false,"script":null)
+]
+}
+portal_forward={
+"deadzone": 0.25,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":87,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":16,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194320,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
