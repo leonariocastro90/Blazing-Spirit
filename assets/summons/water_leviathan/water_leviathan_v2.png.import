@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d00f5askw3gqg"
-path="res://.godot/imported/elfa.png-4cbb16778fc8616e75ab12a687b6c319.ctex"
+uid="uid://bkr0w065g1sap"
+path="res://.godot/imported/water_leviathan_v2.png-24d43cc18bf51bf11b90f773ba502c35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://elfa.png"
-dest_files=["res://.godot/imported/elfa.png-4cbb16778fc8616e75ab12a687b6c319.ctex"]
+source_file="res://assets/summons/water_leviathan/water_leviathan_v2.png"
+dest_files=["res://.godot/imported/water_leviathan_v2.png-24d43cc18bf51bf11b90f773ba502c35.ctex"]
 
 [params]
 
