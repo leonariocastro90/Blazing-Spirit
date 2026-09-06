@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjgrdrgstfy1h"
+path="res://.godot/imported/Maple Town Morning (1).mp3-cf4703f5740d19a4364351ad71064907.mp3str"
+
+[deps]
+
+source_file="res://Maple Town Morning (1).mp3"
+dest_files=["res://.godot/imported/Maple Town Morning (1).mp3-cf4703f5740d19a4364351ad71064907.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
