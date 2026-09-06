@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="PantanoVioleta" type="Node2D"]
+metadata/map_id = 4
+metadata/display_name = "Pantano Violeta"
+

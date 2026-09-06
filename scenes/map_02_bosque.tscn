@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="BosqueLuciérnagas" type="Node2D"]
+metadata/map_id = 1
+metadata/display_name = "Bosque de Luciérnagas"
+

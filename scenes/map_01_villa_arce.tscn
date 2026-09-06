@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="VillaArce" type="Node2D"]
+metadata/map_id = 0
+metadata/display_name = "Villa Arce"
+
