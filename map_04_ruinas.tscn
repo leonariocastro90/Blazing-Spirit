@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="RuinasCelestes" type="Node2D"]
+metadata/map_id = 3
+metadata/display_name = "Ruinas Celestes"
+

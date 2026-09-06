@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="CanonDorado" type="Node2D"]
+metadata/map_id = 2
+metadata/display_name = "Cañón Dorado"
+
